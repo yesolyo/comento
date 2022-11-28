@@ -11285,10 +11285,12 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-.bg-image-full {
+  .bg-image-full {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
+  }
 }
+
+
